@@ -22,8 +22,12 @@ export default function ProductComp() {
 
     return (
         <>
+        <div className='products_main_cont mx-5'>
+        <CardComp products={product}/>
 
-            <CardComp products={product}/>
+        </div>
+
+            
 
         </>
     )
